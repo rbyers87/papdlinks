@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Port Arthur Police Department Resources</title>
+    <title>Police Department Resources</title>
     <!-- Favicon/badge placeholder for the tab bar -->
     <link rel="icon" href="department-badge.png" type="image/png">
     <style>
@@ -23,6 +23,16 @@
             border-radius: 5px;
             margin-bottom: 30px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+        .header-logo {
+            margin-right: 20px;
+            width: 60px;
+            height: 60px;
+        }
+        .header-text {
+            flex: 1;
         }
         h1 {
             margin: 0;
@@ -83,6 +93,11 @@
             header {
                 padding: 15px;
             }
+            .header-logo {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
             .link-item {
                 padding: 12px;
             }
@@ -91,44 +106,47 @@
 </head>
 <body>
     <header>
-        <h1>Port Arthur Police Department Resources</h1>
-        <div class="subtitle">Serving and protecting our community</div>
+        <img src="department-badge.png" alt="Police Department Badge" class="header-logo">
+        <div class="header-text">
+            <h1>Police Department Resources</h1>
+            <div class="subtitle">Serving and protecting our community</div>
+        </div>
     </header>
     
     <div class="links-container">
         <div class="link-item">
             <h2>Report a Non-Emergency Incident</h2>
             <p>File a report for non-emergency situations like property damage, theft, or lost items.</p>
-            <a href="https://secure.coplogic.com/dors/en/filing/submitreport?dynparam=1741881637913">Access Online Reporting System</a>
+            <a href="redirect-reporting.html">Access Online Reporting System</a>
         </div>
         
         <div class="link-item">
             <h2>Community Programs</h2>
             <p>Learn about our community outreach initiatives, neighborhood watch, and volunteer opportunities.</p>
-            <a href="https://yourcommunityurl.com">View Community Programs</a>
+            <a href="redirect-community.html">View Community Programs</a>
         </div>
         
         <div class="link-item">
             <h2>Public Records Request</h2>
             <p>Submit requests for public records, police reports, and other available documentation.</p>
-            <a href="https://yourrecordsurl.com">Request Public Records</a>
+            <a href="redirect-records.html">Request Public Records</a>
         </div>
         
         <div class="link-item">
             <h2>Safety Resources</h2>
             <p>Access safety tips, prevention guides, and emergency preparedness information.</p>
-            <a href="https://yoursafetyurl.com">Browse Safety Resources</a>
+            <a href="redirect-safety.html">Browse Safety Resources</a>
         </div>
         
         <div class="link-item">
             <h2>Contact Information</h2>
             <p>Find phone numbers, email addresses, and locations for our department and facilities.</p>
-            <a href="https://yourcontacturl.com">View Contact Details</a>
+            <a href="redirect-contact.html">View Contact Details</a>
         </div>
     </div>
     
     <footer>
-        &copy; 2025 Port Arthur Police Department. All rights reserved.
+        &copy; 2025 Police Department. All rights reserved.
     </footer>
 </body>
 </html>
