@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3; url=https://secure.coplogic.com/">
+    <title>Redirecting to Online Reporting System</title>
+    <link rel="icon" href="department-badge.png" type="image/png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        .redirect-box {
+            background-color: white;
+            border-radius: 5px;
+            padding: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a3a6e;
+            margin-top: 0;
+        }
+        .loader {
+            width: 48px;
+            height: 48px;
+            border: 5px solid #1a3a6e;
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+            margin: 20px 0;
+        }
+        @keyframes rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .manual-link {
+            margin-top: 20px;
+        }
+        .manual-link a {
+            color: #2c66c3;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .manual-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="redirect-box">
+        <h1>Redirecting to External Service</h1>
+        <p>You are being redirected to the Online Reporting System. Please wait...</p>
+        <span class="loader"></span>
+        <div class="manual-link">
+            <p>If you are not redirected automatically, <a href="https://secure.coplogic.com/">click here</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
